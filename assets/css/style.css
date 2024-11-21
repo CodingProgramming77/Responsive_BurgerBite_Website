@@ -1,0 +1,229 @@
+/* =============== Google Fonts ================ */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Satisfy&display=swap');
+
+/* ============= Define CSS Variables ============== */
+:root {
+  --header-height: 3.5rem;
+
+  /* ------- Colors ------- */
+  --primary-color: #ffba00;
+  --secondary-color: #057738;
+  --tertiary-color: #c03333;
+
+  --scrlBar-color-1: #1e232e;
+  --scrlBar-color-2: #213044;
+  --scrlBar-color-3: #474e5f;
+
+  --title-color: #fff;
+  --text-color: #d7dbe4;
+  --text-color-light: #afb5c0;
+
+  --body-color: #0f0f0f;
+
+  --big-bx-shadow: 0 4px 36px 9px rgba(0, 0, 0, 0.9);
+  --small-bx-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+  --element-shadow: drop-shadow(0 0 24px rgba(0, 0, 0, 0.4));
+
+
+  /* ------- Font and Typography ------- */
+  /* 0.5rem = 8px | 1rem = 16px */
+
+  --body-font: "Raleway", sans-serif;
+  --second-font: "Satisfy", cursive;
+
+  --biggest-font-size: 2.3rem;
+  --bigger-font-size: 1.55rem;
+  --big-font-size: 1.4rem;
+  --h1-font-size: 1.4rem;
+  --h2-font-size: 1.2rem;
+  --h3-font-size: 1rem;
+  --normal-font-size: 0.95rem;
+  --small-font-size: 0.85rem;
+
+  --font-regular: 400;
+  --font-semi-bold: 500;
+  --font-bold: 600;
+
+
+  /* ------- z-index ------- */
+  --z-tooltip: 10;
+  --z-fixed: 100;
+}
+
+/* ========= Responsive Font and Typography ========== */
+@media screen and (min-width: 1024px) {
+  :root {
+    --biggest-font-size: 3rem;
+    --bigger-font-size: 2.3rem;
+    --big-font-size: 2rem;
+  }
+}
+
+@media screen and (min-width: 1150px) {
+  :root {
+    --biggest-font-size: 3.3rem;
+    --bigger-font-size: 2.5rem;
+    --big-font-size: 1.7rem;
+    --h1-font-size: 1.7rem;
+    --h2-font-size: 1.3rem;
+    --h3-font-size: 1.1rem;
+    --normal-font-size: 1.05rem;
+    --small-font-size: 0.95rem;
+  }
+}
+
+
+/* ============= Base Styling ============= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+  background-color: var(--body-color);
+  color: var(--text-color);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: var(--title-color);
+  font-family: var(--second-font);
+  font-weight: var(--font-regular);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+input,
+textarea,
+button {
+  font-size: var(--normal-font-size);
+  border: none;
+  outline: none;
+}
+
+
+/* ============== Re-usable CSS Classes =============== */
+.container {
+  max-width: 1120px;
+  margin-inline: 1.5rem;
+}
+
+.grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.section {
+  padding-block: 5rem 1rem;
+}
+
+.section-Title {
+  text-align: center;
+  font-size: var(--h1-font-size);
+  font-weight: var(--font-bold);
+  letter-spacing: 1px;
+  margin-bottom: 3rem;
+}
+
+.main {
+  overflow: hidden;
+}
+
+
+
+/* ============== Header & Nav =============== */
+
+
+/* Navigation Bar for Mobile devices */
+
+/* Active Link */
+
+/* Show menu */
+
+/* Add Header Shadow */
+
+
+/* ================ Button ================ */
+
+
+
+/* ================ Home Section ================ */
+
+
+
+/* ================ About Section ================ */
+
+
+
+/* ================ Menu Section ================ */
+
+
+
+/* ================ Delivery Section ================ */
+
+
+
+/* ================ Contact Section ================ */
+
+
+
+/* ================ Footer ================ */
+
+
+
+/* ================ Scroll Up ================ */
+
+/* Show Scroll up */
+
+
+
+/* ================ ScrollBar ================ */
+
+
+
+/* ================ Break-points ================ */
+/* for small devices */
+@media screen and (max-width: 350px) {
+  
+}
+
+
+/* for medium devices */
+@media screen and (min-width: 540px) {
+
+}
+
+@media screen and (min-width: 768px) {
+
+}
+
+
+/* for large devices */
+@media screen and (min-width: 1024px) {
+  
+}
+
+@media screen and (min-width: 1150px) {
+  
+}
