@@ -2,7 +2,7 @@
 ## [Watch it on YouTube](https://youtu.be/KDr9-US8WeA)
 ### BurgerBite Responsive Modern Food Website
 
-- Responsive Burger Food Website using HTML CSS And JavaScript.
+- Responsive Burger Food Website using HTML CSS and JavaScript.
 - A professional and visually appealing Burger Food website.
 - Website have Animations when Scrolling.
 - Smooth scrolling in each Section of the Website.
